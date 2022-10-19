@@ -92,6 +92,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootDelay: 0.8
+  powerupShootDelay: 0.4
+  powerupTime: 5
+  powerupTimeLeft: 0
 --- !u!61 &5379101154159768325
 BoxCollider2D:
   m_ObjectHideFlags: 0

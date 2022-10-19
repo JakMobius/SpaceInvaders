@@ -1,0 +1,11 @@
+
+.idea
+Library
+Logs
+*.app
+*.sln
+*_DoNotShip
+*.DS_Store
+*.csproj
+Temp
+obj

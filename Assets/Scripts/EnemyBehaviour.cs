@@ -39,7 +39,7 @@ public class EnemyBehaviour : MonoBehaviour
         {
             var tr = transform;
             var drop = Instantiate(DropPrefab, tr.position, Quaternion.identity, tr.parent);
-            drop.GetComponent<Rigidbody2D>().velocity = Vector2.down * 300;
+            drop.GetComponent<Rigidbody2D>().velocity = Vector2.down * 100;
         }
         Destroy(gameObject);
     }

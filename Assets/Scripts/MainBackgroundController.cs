@@ -8,7 +8,7 @@ public class MainBackgroundController : MonoBehaviour
     public List<GameObject> flyingEnemies;
     public GameObject flyingPlayer;
     private RectTransform _rectTransform;
-    private int _enemiesFlying = 10;
+    private int _enemiesFlying = 30;
 
     // Start is called before the first frame update
     private void Start()
